@@ -104,3 +104,15 @@ def website_audit(url):
 if __name__ == "__main__":
     target_url = input("Enter the URL of the website to audit: ")
     website_audit(target_url)
+
+
+"""
+How to Use
+Save the code into a Jupyter Notebook cell.
+Run the cell and provide the URL of the website you want to audit.
+The tool will analyze the website and output:
+    HTTP status.
+    Meta tags for SEO analysis.
+    Broken links (if any).
+    Text-to-HTML ratio.
+"""
